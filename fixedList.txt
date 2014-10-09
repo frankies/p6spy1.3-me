@@ -2,3 +2,4 @@
 1. com.p6spy.engine.common.P6SpyOptions		Add by linzhw,2010-8-13, only log the full sql to the appender
 2. com.p6spy.engine.logging.appender.FormattedLogger.logSQL()		Add by linzhw,2010-8-13, Add the 'OnlyLogReadableSql' properties to control the log message.
 3. com.p6spy.engine.oracle.lob.OracleLobForP6spyHandler.getOracleConnection() //Add by linzhw,2010-8-13, add checking the Connect instance to do the different processes. 
+4. com.p6spy.engine.spy.P6SpyDriverCore.wrapConnection(Connection) Add by linzhw, 2014-10-09, when Connection is the instance of P6Connection , it will skip the wrap process.
